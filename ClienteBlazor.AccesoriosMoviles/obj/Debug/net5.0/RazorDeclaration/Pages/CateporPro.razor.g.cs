@@ -89,8 +89,22 @@ using MudBlazor;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
-    public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\Pages\CateporPro.razor"
+using Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\Pages\CateporPro.razor"
+using Services;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/catexpro/{id:int}")]
+    public partial class CateporPro : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -98,18 +112,23 @@ using MudBlazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\Pages\Counter.razor"
+#line 38 "C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\Pages\CateporPro.razor"
        
-    private int currentCount = 0;
+    [Parameter]
+    public int id { get; set; }
 
-    private void IncrementCount()
+    IEnumerable<Producto> Categoriass = new List<Producto>();
+
+    protected override async Task OnInitializedAsync()
     {
-        currentCount++;
+        if (id > 0)
+            Categoriass = await ProductoService.GetByCategoria(id);
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IProductoService ProductoService { get; set; }
     }
 }
 #pragma warning restore 1591

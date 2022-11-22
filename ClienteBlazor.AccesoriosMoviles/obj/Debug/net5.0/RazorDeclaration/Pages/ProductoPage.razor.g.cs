@@ -112,7 +112,7 @@ using Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 56 "C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\Pages\ProductoPage.razor"
+#line 35 "C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\Pages\ProductoPage.razor"
         IEnumerable<Producto> productos = new List<Producto>();
 
             protected override async Task OnInitializedAsync()

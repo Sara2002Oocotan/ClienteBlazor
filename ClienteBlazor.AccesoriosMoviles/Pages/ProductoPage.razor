@@ -15,39 +15,18 @@
     {
 <MudItem xs="12" sm="10" md="6" lg="4">
     <MudCard>
-        <MudCardHeader Class="blue lighten-1">
+        <MudCardHeader Class="text-center pa-4 shades-text text-white black">
             <CardHeaderContent>
                 <MudText Typo="Typo.h6">@item.Nombre</MudText>
+                <MudText Typo="Typo.h6">@item.Precio</MudText>
+                <MudText Typo="Typo.h6">@item.Descripcion</MudText>
             </CardHeaderContent>
         </MudCardHeader>
-       
-
-            <MudCardHeader Class="blue lighten-2">
-                <CardHeaderContent>
-                    <MudText Typo="Typo.h6">@item.Precio</MudText>
-                </CardHeaderContent>
-            </MudCardHeader>
-            
-
-                <MudCardHeader Class="blue lighten-3">
-                    <CardHeaderContent>
-                        @*<MudText Typo="Typo.h6">@item.Imagen</MudText>*@
-                        <img src="@item.Imagen" alt="Imagen del producto" />
-                    </CardHeaderContent>
-                </MudCardHeader>
                
-
-                    <MudCardHeader Class="blue lighten-4">
-                        <CardHeaderContent>
-                            <MudText Typo="Typo.h6">@item.Descripcion</MudText>
-                        </CardHeaderContent>
-                    </MudCardHeader>
-                    <MudCardContent>
-
-                    </MudCardContent>
-                    <MudCardActions>
-                        <MudButton Link="@($"/detalles/{item.Id}")" Variant="Variant.Outlined" Color="Color.Success">Detalles</MudButton>
-                    </MudCardActions>
+                <MudCardActions>
+                    <img src="@item.Imagen" alt="Imagen del producto" Elevation="25" Class="rounded-lg" width="60%" height="auto" />
+                    <MudButton Link="@($"/catexpro/{item.Id}")" Variant="Variant.Outlined" Color="Color.Success">Detalles</MudButton>
+                </MudCardActions>
 </MudCard>
 </MudItem>}
 </MudGrid>}
