@@ -19,7 +19,7 @@ namespace ClienteBlazor.AccesoriosMoviles
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://www.accesorios.somee.com/api/") });
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://www.accesorios.somee.com/api/") });
             builder.Services.AddScoped<ICategoriaService, CategoriaService>();
             builder.Services.AddScoped<IProductoService, ProductoService>();
 
