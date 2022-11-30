@@ -641,3 +641,5 @@ C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.Acceso
 C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\obj\Debug\net5.0\service-worker-assets.js
 C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\obj\Debug\net5.0\RazorDeclaration\Pages\CateporPro.razor.g.cs
 C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\obj\Debug\net5.0\Razor\Pages\CateporPro.razor.g.cs
+C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\obj\Debug\net5.0\RazorDeclaration\Pages\Detalles.razor.g.cs
+C:\Users\MINED\source\repos\ClienteBlazor.AccesoriosMoviles\ClienteBlazor.AccesoriosMoviles\obj\Debug\net5.0\Razor\Pages\Detalles.razor.g.cs

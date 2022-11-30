@@ -13,7 +13,7 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-AS6p0blllcTbUwvNxd9PDny30apMI69h8bA+8z5Iy+o=",
+      "hash": "sha256-Ous2NZCYwbedqifsJjDyJKUQyMye8kwUURYES79p8vU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -801,11 +801,11 @@
       "url": "_framework\/dotnet.5.0.17.js"
     },
     {
-      "hash": "sha256-52YsCHT+4FOjlJdyQwpWv7Bv3BJXR9Uk8Lka12zVPBw=",
+      "hash": "sha256-WSDLR1zaoXKHV304caOUvRi69Zyu849mc5LTcTUFfBQ=",
       "url": "_framework\/ClienteBlazor.AccesoriosMoviles.dll"
     },
     {
-      "hash": "sha256-iwyC7dBMwhZCvdRreFDS76eDt6Zxsv9lzoYcPxBgMrE=",
+      "hash": "sha256-4prXu793J1PPyl2NFS2kzPPZmffiTHMgu9eqr8cyBYE=",
       "url": "_framework\/ClienteBlazor.AccesoriosMoviles.pdb"
     },
     {
@@ -1641,5 +1641,5 @@
       "url": "ClienteBlazor.AccesoriosMoviles.bundle.scp.css"
     }
   ],
-  "version": "Myhny565"
+  "version": "a7VndYov"
 };
